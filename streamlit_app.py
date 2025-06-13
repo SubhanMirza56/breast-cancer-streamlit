@@ -3,7 +3,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 
 # Load the trained model
-model = load_model("model.h5")
+model = load_model("breast_cancer_model.h5")
 
 # Streamlit App UI
 st.title("🧠 Breast Cancer Predictor")
