@@ -1,6 +1,8 @@
 import streamlit as st
 import numpy as np
-from tensorflow.keras.models import load_model
+import tensorflow as tf
+from tensorflow import keras
+from keras.models import load_model
 
 # Load the trained model
 model = load_model("breast_cancer_model.h5")
